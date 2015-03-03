@@ -22,4 +22,4 @@ $(TPROG) : $(SRC)
 	$(CCT) $(SRC) -o $(TPROG) $(TCFLAGS)
 	
 clean: 
-	rm -f *.exe *.o *script.*
+	rm -f *.exe *.o* *script.e* *script.i* *script.s* profile* *.log *file_for_script

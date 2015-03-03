@@ -33,20 +33,26 @@ int main(int argc, char* argv[]){
 	
 	if (my_rank !=0){
 		/* create message */
-		sprintf(message, "Hello MPI World from process %d!", my_rank);
 		dest = 0;
+		int i;
+		double sum=0;
+		for (i=0; i < my_rank*10; i++) {
+			sum+=i;
+			/*sleep(1);*/
+		}
+		sprintf(message, "From process %d: sum=%d", my_rank,sum);
 		/* use strlen+1 so that '\0' get transmitted */
-		MPI_Send(message, strlen(message)+1, MPI_CHAR,
-		   dest, tag, MPI_COMM_WORLD);
+		MPI_Send(message, strlen(message)+1, MPI_CHAR, dest, tag, MPI_COMM_WORLD);
 	}
 	else{
-		printf("Hello MPI World From process 0! Num processes: %d\n",p);
+		printf("C_MPI Num processes: %d\n",p);
 		for (source = 1; source < p; source++) {
 			MPI_Recv(message, 100, MPI_CHAR, source, tag,
 			      MPI_COMM_WORLD, &status);
 			printf("received: %s\n",message);
 		}
 	}
+	MPI_Barrier(MPI_COMM_WORLD);
 	/* shut down MPI */
 	MPI_Finalize(); 
 	

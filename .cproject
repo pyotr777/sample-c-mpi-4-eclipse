@@ -46,48 +46,6 @@
 			</storageModule>
 			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
 		</cconfiguration>
-		<cconfiguration id="cdt.managedbuild.config.gnu.cygwin.exe.release.1180773646">
-			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.cygwin.exe.release.1180773646" moduleId="org.eclipse.cdt.core.settings" name="Release">
-				<externalSettings/>
-				<extensions>
-					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
-					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
-					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
-				</extensions>
-			</storageModule>
-			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.cygwin.exe.release.1180773646" name="Release" parent="cdt.managedbuild.config.gnu.cygwin.exe.release">
-					<folderInfo id="cdt.managedbuild.config.gnu.cygwin.exe.release.1180773646." name="/" resourcePath="">
-						<toolChain id="org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.2133127198" name="Remote Linux GCC Tool Chain" superClass="org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base">
-							<targetPlatform archList="all" id="org.eclipse.ptp.rdt.managedbuild.target.gnu.platform.base.128803975" name="Debug Platform" osList="linux,hpux,aix,qnx" superClass="org.eclipse.ptp.rdt.managedbuild.target.gnu.platform.base"/>
-							<builder autoBuildTarget="" buildPath="${workspace_loc:/C_MPI}/Release" cleanBuildTarget="" enableAutoBuild="false" enableCleanBuild="true" enabledIncrementalBuild="true" id="org.eclipse.ptp.rdt.sync.cdt.core.SyncBuilder.1933172973" incrementalBuildTarget="" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Sync Builder" superClass="org.eclipse.ptp.rdt.sync.cdt.core.SyncBuilder"/>
-							<tool id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.archiver.base.1506769233" name="Remote GCC Archiver" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.archiver.base"/>
-							<tool id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.compiler.base.723957633" name="Remote GCC C++ Compiler" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.compiler.base">
-								<option id="ptp.rdt.gnu.cpp.compiler.option.optimization.level.211069604" name="Optimization Level" superClass="ptp.rdt.gnu.cpp.compiler.option.optimization.level" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
-								<option id="ptp.rdt.gnu.cpp.compiler.option.debugging.level.1709988847" name="Debug Level" superClass="ptp.rdt.gnu.cpp.compiler.option.debugging.level" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
-								<inputType id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.compiler.input.1482316218" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.compiler.input"/>
-							</tool>
-							<tool id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.compiler.base.1723903947" name="Remote GCC C Compiler" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.compiler.base">
-								<option defaultValue="gnu.c.optimization.level.most" id="ptp.rdt.gnu.c.compiler.option.optimization.level.2037615940" name="Optimization Level" superClass="ptp.rdt.gnu.c.compiler.option.optimization.level" valueType="enumerated"/>
-								<option id="ptp.rdt.gnu.c.compiler.option.debugging.level.123854147" name="Debug Level" superClass="ptp.rdt.gnu.c.compiler.option.debugging.level" value="gnu.c.debugging.level.none" valueType="enumerated"/>
-								<inputType id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.compiler.input.933796461" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.compiler.input"/>
-							</tool>
-							<tool id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.linker.base.474799783" name="Remote GCC C Linker" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.linker.base"/>
-							<tool id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.linker.base.1671562617" name="Remote GCC C++ Linker" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.linker.base">
-								<inputType id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.linker.input.1978962195" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.linker.input">
-									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
-									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
-								</inputType>
-							</tool>
-							<tool id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.assembler.base.1186372999" name="Remote GCC Assembler" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.assembler.base">
-								<inputType id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.assembler.input.640431263" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.assembler.input"/>
-							</tool>
-						</toolChain>
-					</folderInfo>
-				</configuration>
-			</storageModule>
-			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
-		</cconfiguration>
 		<cconfiguration id="cdt.managedbuild.config.gnu.cygwin.exe.release.1180773646.1810168355">
 			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.cygwin.exe.release.1180773646.1810168355" moduleId="org.eclipse.cdt.core.settings" name="Pi">
 				<externalSettings/>
@@ -147,7 +105,7 @@
 					<folderInfo id="cdt.managedbuild.config.gnu.cygwin.exe.release.1180773646.156909064." name="/" resourcePath="">
 						<toolChain id="org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.110719056" name="Remote Linux GCC Tool Chain" superClass="org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base">
 							<targetPlatform archList="all" id="org.eclipse.ptp.rdt.managedbuild.target.gnu.platform.base.1053782559" name="Debug Platform" osList="linux,hpux,aix,qnx" superClass="org.eclipse.ptp.rdt.managedbuild.target.gnu.platform.base"/>
-							<builder arguments="tau" buildPath="${workspace_loc:/C_MPI}/" command="make" enableCleanBuild="true" enabledIncrementalBuild="true" id="org.eclipse.ptp.rdt.sync.cdt.core.SyncBuilder.38871070" incrementalBuildTarget="" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Sync Builder" superClass="org.eclipse.ptp.rdt.sync.cdt.core.SyncBuilder"/>
+							<builder arguments="" buildPath="${workspace_loc:/C_MPI}" command="make" id="org.eclipse.ptp.rdt.sync.cdt.core.SyncBuilder.862703413" incrementalBuildTarget="tau" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Sync Builder" superClass="org.eclipse.ptp.rdt.sync.cdt.core.SyncBuilder"/>
 							<tool id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.archiver.base.190142915" name="Remote GCC Archiver" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.archiver.base"/>
 							<tool id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.compiler.base.84985869" name="Remote GCC C++ Compiler" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.compiler.base">
 								<option id="ptp.rdt.gnu.cpp.compiler.option.optimization.level.1317306188" name="Optimization Level" superClass="ptp.rdt.gnu.cpp.compiler.option.optimization.level" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
@@ -171,6 +129,77 @@
 							</tool>
 						</toolChain>
 					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="cdt.managedbuild.config.gnu.cygwin.exe.debug.377488028.593629538">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.cygwin.exe.debug.377488028.593629538" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.cygwin.exe.debug.377488028.593629538" name="Release" parent="cdt.managedbuild.config.gnu.cygwin.exe.debug">
+					<folderInfo id="cdt.managedbuild.config.gnu.cygwin.exe.debug.377488028.593629538." name="/" resourcePath="">
+						<toolChain id="org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.103341175" name="Remote Linux GCC Tool Chain" superClass="org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base">
+							<targetPlatform archList="all" id="org.eclipse.ptp.rdt.managedbuild.target.gnu.platform.base.1224105805" name="Debug Platform" osList="linux,hpux,aix,qnx" superClass="org.eclipse.ptp.rdt.managedbuild.target.gnu.platform.base"/>
+							<builder id="org.eclipse.ptp.rdt.sync.cdt.core.SyncBuilder.1636004409" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Sync Builder" superClass="org.eclipse.ptp.rdt.sync.cdt.core.SyncBuilder"/>
+							<tool id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.archiver.base.109774904" name="Remote GCC Archiver" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.archiver.base"/>
+							<tool id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.compiler.base.1097934514" name="Remote GCC C++ Compiler" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.compiler.base">
+								<option id="ptp.rdt.gnu.cpp.compiler.option.optimization.level.45877955" name="Optimization Level" superClass="ptp.rdt.gnu.cpp.compiler.option.optimization.level" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+								<option id="ptp.rdt.gnu.cpp.compiler.option.debugging.level.663079644" name="Debug Level" superClass="ptp.rdt.gnu.cpp.compiler.option.debugging.level" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+								<inputType id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.compiler.input.1653510463" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.compiler.base.1447749508" name="Remote GCC C Compiler" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.compiler.base">
+								<option defaultValue="gnu.c.optimization.level.none" id="ptp.rdt.gnu.c.compiler.option.optimization.level.671891665" name="Optimization Level" superClass="ptp.rdt.gnu.c.compiler.option.optimization.level" valueType="enumerated"/>
+								<option id="ptp.rdt.gnu.c.compiler.option.debugging.level.1609857763" name="Debug Level" superClass="ptp.rdt.gnu.c.compiler.option.debugging.level" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<option id="ptp.rdt.gnu.c.compiler.option.include.paths.1414595119" superClass="ptp.rdt.gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="/Users/peterbryzgalov/work/workspacePTP/C_MPI/src"/>
+									<listOptionValue builtIn="false" value="/home/ra000007/a03106/tau-2.23.1/include"/>
+								</option>
+								<option id="ptp.rdt.gnu.c.compiler.option.preprocessor.def.symbols.1146805909" superClass="ptp.rdt.gnu.c.compiler.option.preprocessor.def.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="TAU_MPIGREQUEST=1"/>
+									<listOptionValue builtIn="false" value="TAU_MPIERRHANDLER=1"/>
+									<listOptionValue builtIn="false" value="TAU_STRSIGNAL_OK=1"/>
+									<listOptionValue builtIn="false" value="TAU_FUJITSU=1"/>
+									<listOptionValue builtIn="false" value="TAU_MPI_THREADED=1"/>
+									<listOptionValue builtIn="false" value="HAVE_GNU_DEMANGLE=1"/>
+									<listOptionValue builtIn="false" value="TAU_LARGEFILE=1"/>
+									<listOptionValue builtIn="false" value="TAU_MPITYPEEX=1"/>
+									<listOptionValue builtIn="false" value="TAU_MPIADDERROR=1"/>
+									<listOptionValue builtIn="false" value="TAU_SS_ALLOC_SUPPORT=1"/>
+									<listOptionValue builtIn="false" value="_LARGEFILE64_SOURCE=1"/>
+									<listOptionValue builtIn="false" value="TAU_MPI=1"/>
+									<listOptionValue builtIn="false" value="TAU_TRACK_LD_LOADER=1"/>
+									<listOptionValue builtIn="false" value="TAU_DOT_H_LESS_HEADERS=1"/>
+									<listOptionValue builtIn="false" value="TAU_MPIFILE=1"/>
+									<listOptionValue builtIn="false" value="TAU_MPIATTRFUNCTION=1"/>
+									<listOptionValue builtIn="false" value="TAU_UNIFY=1"/>
+									<listOptionValue builtIn="false" value="TAU_MPIDATAREP=1"/>
+									<listOptionValue builtIn="false" value="TAU_BFD=1"/>
+									<listOptionValue builtIn="false" value="PROFILING_ON=1"/>
+								</option>
+								<inputType id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.compiler.input.2072501560" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.linker.base.1290992015" name="Remote GCC C Linker" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.linker.base"/>
+							<tool id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.linker.base.1818826458" name="Remote GCC C++ Linker" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.linker.base">
+								<inputType id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.linker.input.1829546932" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.assembler.base.1172419628" name="Remote GCC Assembler" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.assembler.base">
+								<inputType id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.assembler.input.2125772721" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+					</sourceEntries>
 				</configuration>
 			</storageModule>
 			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
@@ -205,7 +234,6 @@
 			</target>
 			<target name="clean" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
 				<buildCommand>make</buildCommand>
-				<buildArguments/>
 				<buildTarget>clean</buildTarget>
 				<stopOnError>true</stopOnError>
 				<useDefaultCommand>false</useDefaultCommand>
@@ -213,8 +241,15 @@
 			</target>
 			<target name="tau" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
 				<buildCommand>make</buildCommand>
-				<buildArguments/>
 				<buildTarget>tau</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="all" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>make</buildCommand>
+				<buildArguments/>
+				<buildTarget>all</buildTarget>
 				<stopOnError>true</stopOnError>
 				<useDefaultCommand>false</useDefaultCommand>
 				<runAllBuilders>true</runAllBuilders>
@@ -223,7 +258,13 @@
 	</storageModule>
 	<storageModule moduleId="scannerConfiguration">
 		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cygwin.exe.debug.377488028;cdt.managedbuild.config.gnu.cygwin.exe.debug.377488028.">
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cygwin.exe.debug.377488028.593629538;cdt.managedbuild.config.gnu.cygwin.exe.debug.377488028.593629538.;org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.compiler.base.1097934514;org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.compiler.input.1653510463">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.ptp.rdt.managedbuilder.gnu.ui.RemoteGCCPerFileProfileCpp"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cygwin.exe.debug.377488028.593629538;cdt.managedbuild.config.gnu.cygwin.exe.debug.377488028.593629538.;org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.compiler.base.1447749508;org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.compiler.input.2072501560">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.ptp.rdt.managedbuilder.gnu.ui.RemoteGCCPerFileProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cygwin.exe.debug.377488028.593629538;cdt.managedbuild.config.gnu.cygwin.exe.debug.377488028.593629538.">
 			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.ptp.rdt.managedbuilder.gnu.ui.RemoteGCCPerFileProfileCpp"/>
 		</scannerConfigBuildInfo>
 		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cygwin.exe.debug.377488028;cdt.managedbuild.config.gnu.cygwin.exe.debug.377488028.;cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.exe.debug.631701474;cdt.managedbuild.tool.gnu.cpp.compiler.input.cygwin.173186579">
@@ -231,6 +272,15 @@
 		</scannerConfigBuildInfo>
 		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cygwin.exe.release.1180773646.156909064;cdt.managedbuild.config.gnu.cygwin.exe.release.1180773646.156909064.;org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.compiler.base.1432729872;org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.compiler.input.1307017991">
 			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.ptp.rdt.managedbuilder.gnu.ui.RemoteGCCPerFileProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cygwin.exe.release.1180773646.156909064;cdt.managedbuild.config.gnu.cygwin.exe.release.1180773646.156909064.">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.ptp.rdt.managedbuilder.gnu.ui.RemoteGCCPerFileProfileCpp"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cygwin.exe.debug.377488028;cdt.managedbuild.config.gnu.cygwin.exe.debug.377488028.;org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.compiler.base.1878516164;org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.compiler.input.1917292409">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.ptp.rdt.managedbuilder.gnu.ui.RemoteGCCPerFileProfileCpp"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cygwin.exe.debug.377488028;cdt.managedbuild.config.gnu.cygwin.exe.debug.377488028.">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.ptp.rdt.managedbuilder.gnu.ui.RemoteGCCPerFileProfileCpp"/>
 		</scannerConfigBuildInfo>
 		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cygwin.exe.release.1180773646;cdt.managedbuild.config.gnu.cygwin.exe.release.1180773646.">
 			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.ptp.rdt.managedbuilder.gnu.ui.RemoteGCCPerFileProfileCpp"/>
@@ -247,9 +297,6 @@
 		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cygwin.exe.release.1180773646.156909064;cdt.managedbuild.config.gnu.cygwin.exe.release.1180773646.156909064.;org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.compiler.base.84985869;org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.compiler.input.1970942979">
 			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.ptp.rdt.managedbuilder.gnu.ui.RemoteGCCPerFileProfileCpp"/>
 		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cygwin.exe.release.1180773646.156909064;cdt.managedbuild.config.gnu.cygwin.exe.release.1180773646.156909064.">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.ptp.rdt.managedbuilder.gnu.ui.RemoteGCCPerFileProfileCpp"/>
-		</scannerConfigBuildInfo>
 		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cygwin.exe.release.1180773646;cdt.managedbuild.config.gnu.cygwin.exe.release.1180773646.;org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.compiler.base.1723903947;org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.compiler.input.933796461">
 			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.ptp.rdt.managedbuilder.gnu.ui.RemoteGCCPerFileProfile"/>
 		</scannerConfigBuildInfo>
@@ -258,9 +305,6 @@
 		</scannerConfigBuildInfo>
 		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cygwin.exe.release.1180773646;cdt.managedbuild.config.gnu.cygwin.exe.release.1180773646.;cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.exe.release.678072915;cdt.managedbuild.tool.gnu.cpp.compiler.input.cygwin.157211656">
 			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cygwin.exe.debug.377488028;cdt.managedbuild.config.gnu.cygwin.exe.debug.377488028.;org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.compiler.base.1878516164;org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.compiler.input.1917292409">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.ptp.rdt.managedbuilder.gnu.ui.RemoteGCCPerFileProfileCpp"/>
 		</scannerConfigBuildInfo>
 	</storageModule>
 </cproject>
