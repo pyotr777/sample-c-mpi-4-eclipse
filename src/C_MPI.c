@@ -35,12 +35,12 @@ int main(int argc, char* argv[]){
 		/* create message */
 		dest = 0;
 		int i;
-		double sum=0;
-		for (i=0; i < my_rank*10; i++) {
-			sum+=i;
+		unsigned long sum=0;
+		for (i=0; i < my_rank*100; i++) {
+			sum += i;
 			/*sleep(1);*/
 		}
-		sprintf(message, "From process %d: sum=%d", my_rank,sum);
+		sprintf(message, "Process %d: sum=%d", my_rank,sum);
 		/* use strlen+1 so that '\0' get transmitted */
 		MPI_Send(message, strlen(message)+1, MPI_CHAR, dest, tag, MPI_COMM_WORLD);
 	}

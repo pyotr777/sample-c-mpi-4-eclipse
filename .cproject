@@ -105,7 +105,7 @@
 					<folderInfo id="cdt.managedbuild.config.gnu.cygwin.exe.release.1180773646.156909064." name="/" resourcePath="">
 						<toolChain id="org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.110719056" name="Remote Linux GCC Tool Chain" superClass="org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base">
 							<targetPlatform archList="all" id="org.eclipse.ptp.rdt.managedbuild.target.gnu.platform.base.1053782559" name="Debug Platform" osList="linux,hpux,aix,qnx" superClass="org.eclipse.ptp.rdt.managedbuild.target.gnu.platform.base"/>
-							<builder arguments="" buildPath="${workspace_loc:/C_MPI}" command="make" id="org.eclipse.ptp.rdt.sync.cdt.core.SyncBuilder.862703413" incrementalBuildTarget="tau" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Sync Builder" superClass="org.eclipse.ptp.rdt.sync.cdt.core.SyncBuilder"/>
+							<builder arguments="tau" buildPath="${workspace_loc:/C_MPI}" command="make" id="org.eclipse.ptp.rdt.sync.cdt.core.SyncBuilder.862703413" incrementalBuildTarget="tau" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Sync Builder" superClass="org.eclipse.ptp.rdt.sync.cdt.core.SyncBuilder"/>
 							<tool id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.archiver.base.190142915" name="Remote GCC Archiver" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.archiver.base"/>
 							<tool id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.compiler.base.84985869" name="Remote GCC C++ Compiler" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.compiler.base">
 								<option id="ptp.rdt.gnu.cpp.compiler.option.optimization.level.1317306188" name="Optimization Level" superClass="ptp.rdt.gnu.cpp.compiler.option.optimization.level" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
@@ -157,11 +157,11 @@
 							<tool id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.compiler.base.1447749508" name="Remote GCC C Compiler" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.compiler.base">
 								<option defaultValue="gnu.c.optimization.level.none" id="ptp.rdt.gnu.c.compiler.option.optimization.level.671891665" name="Optimization Level" superClass="ptp.rdt.gnu.c.compiler.option.optimization.level" valueType="enumerated"/>
 								<option id="ptp.rdt.gnu.c.compiler.option.debugging.level.1609857763" name="Debug Level" superClass="ptp.rdt.gnu.c.compiler.option.debugging.level" value="gnu.c.debugging.level.max" valueType="enumerated"/>
-								<option id="ptp.rdt.gnu.c.compiler.option.include.paths.1414595119" superClass="ptp.rdt.gnu.c.compiler.option.include.paths" valueType="includePath">
+								<option id="ptp.rdt.gnu.c.compiler.option.include.paths.1414595119" name="Include paths (-I)" superClass="ptp.rdt.gnu.c.compiler.option.include.paths" valueType="includePath">
 									<listOptionValue builtIn="false" value="/Users/peterbryzgalov/work/workspacePTP/C_MPI/src"/>
 									<listOptionValue builtIn="false" value="/home/ra000007/a03106/tau-2.23.1/include"/>
 								</option>
-								<option id="ptp.rdt.gnu.c.compiler.option.preprocessor.def.symbols.1146805909" superClass="ptp.rdt.gnu.c.compiler.option.preprocessor.def.symbols" valueType="definedSymbols">
+								<option id="ptp.rdt.gnu.c.compiler.option.preprocessor.def.symbols.1146805909" name="Defined symbols (-D)" superClass="ptp.rdt.gnu.c.compiler.option.preprocessor.def.symbols" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="TAU_MPIGREQUEST=1"/>
 									<listOptionValue builtIn="false" value="TAU_MPIERRHANDLER=1"/>
 									<listOptionValue builtIn="false" value="TAU_STRSIGNAL_OK=1"/>
