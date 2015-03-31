@@ -1,0 +1,19 @@
+#!/bin/bash
+
+outfile="para_logs"
+echo "start $(date)" > $outfile
+PID=$(ps ax | grep "monitor_para" | awk '{ print $1 }')
+PID=$(echo $PID | awk '{ print $1 }')
+echo $PID
+while true
+do
+	procs=$(ps ax | egrep -i 'paraprof|c_mpi' | grep -v "$PID" | grep -v "grep")
+	if [ -n "$procs" ] 
+	then			
+		echo $procs
+		date >> $outfile
+		echo -e $procs >> $outfile
+		cd /volume1/home/ra000007/a03106/C_MPI/Profiles/mpi-pdt-fujitsu
+		find . * >> $outfile
+	fi
+done

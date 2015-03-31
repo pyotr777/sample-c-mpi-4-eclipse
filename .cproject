@@ -105,7 +105,7 @@
 					<folderInfo id="cdt.managedbuild.config.gnu.cygwin.exe.release.1180773646.156909064." name="/" resourcePath="">
 						<toolChain id="org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.110719056" name="Remote Linux GCC Tool Chain" superClass="org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base">
 							<targetPlatform archList="all" id="org.eclipse.ptp.rdt.managedbuild.target.gnu.platform.base.1053782559" name="Debug Platform" osList="linux,hpux,aix,qnx" superClass="org.eclipse.ptp.rdt.managedbuild.target.gnu.platform.base"/>
-							<builder arguments="tau" buildPath="${workspace_loc:/C_MPI}" command="make" id="org.eclipse.ptp.rdt.sync.cdt.core.SyncBuilder.862703413" incrementalBuildTarget="tau" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Sync Builder" superClass="org.eclipse.ptp.rdt.sync.cdt.core.SyncBuilder"/>
+							<builder buildPath="${workspace_loc:/C_MPI}" id="org.eclipse.ptp.rdt.sync.cdt.core.SyncBuilder.862703413" incrementalBuildTarget="tau" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Sync Builder" superClass="org.eclipse.ptp.rdt.sync.cdt.core.SyncBuilder"/>
 							<tool id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.archiver.base.190142915" name="Remote GCC Archiver" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.archiver.base"/>
 							<tool id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.compiler.base.84985869" name="Remote GCC C++ Compiler" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.compiler.base">
 								<option id="ptp.rdt.gnu.cpp.compiler.option.optimization.level.1317306188" name="Optimization Level" superClass="ptp.rdt.gnu.cpp.compiler.option.optimization.level" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
