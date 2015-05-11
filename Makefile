@@ -5,7 +5,7 @@ TPROG = C_MPIt.exe
 SRC= src/C_MPI.c
 CCT = tau_cc.sh
 
-include eclipse.inc
+# include eclipse.inc
 
 all: $(PROG)
 
@@ -22,4 +22,5 @@ $(TPROG) : $(SRC)
 	$(CCT) $(SRC) -o $(TPROG) $(TCFLAGS)
 	
 clean: 
-	rm -f *.exe *.o* *script.e* *script.i* *script.s* profile* *.log *file_for_script
+	rm -f *.exe *.o* *.i* *.sh.e* *.sh.i* *.sh.o* *.sh.s* *script.e* *script.i* *script.s* profile* tautrace* events* *.log *file_for_script *.edf *.slog2 *.trc
+
