@@ -10,8 +10,6 @@
 #PJM --stgout "rank=* ./*.edf ./"
 . /work/system/Env_base
 . ./03.tau.bashrc
-touch ./tau-2.24.1/sparc64fx/lib/foo
-ls -l ./tau-2.24.1/sparc64fx/lib/
 env | grep -i '/home/ra000007/a03106'
 pwd
 ls -la

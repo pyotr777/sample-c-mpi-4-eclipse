@@ -1,21 +1,22 @@
 #!/bin/bash
-#PJM --rsc-list "node=2x3x2"
-#PJM --rsc-list "elapse=00:01:00"
+#PJM --rsc-list "node=60"
+#PJM --rsc-list "elapse=00:10:00"
 #PJM --stg-transfiles all
 #PJM --mpi "use-rankdir"
-#PJM --stgin "rank=* ./C_MPI.exe %r:./"
+#PJM --stgin "rank=* ./C_MPIt.exe %r:./"
 #PJM --stgin "rank=* ./03.tau.bashrc %r:./"
 #PJM --stgin-dir "rank=* ../tau-2.24.1/sparc64fx %r:./tau-2.24.1/sparc64fx recursive=3"
 #PJM --stgout "rank=* ./*.trc ./"
 #PJM --stgout "rank=* ./*.edf ./"
 . /work/system/Env_base
 . ./03.tau.bashrc
-export PJM_O_PATH=$PATH
-export PJM_O_HOME=$(pwd)
-export PJM_O_WORKDIR=$(pwd)
-env | grep -i '/home/ra000007/a03106'
+export TAU_VERBOSE=1
+export TAU_TRACE=1
 pwd
-ls -la
+echo "TAU=$TAU"
 env | grep -i tau
-export PATH="$(pwd)/tau/sparc64fx/bin:$PATH"
-mpiexec tau_exec ./C_MPI.exe
+ls -la
+date
+mpiexec ./C_MPIt.exe
+date
+ls -la
