@@ -34,13 +34,13 @@ int main(int argc, char* argv[]){
 	if (my_rank !=0){
 		/* create message */
 		dest = 0;
+		unsigned long res=1;
 		int i;
-		unsigned long sum=0;
-		for (i=0; i < my_rank*100; i++) {
-			sum += i;
+		for (i=0; i < my_rank*10; i++) {
+			res++;
 			/*sleep(1);*/
 		}
-		sprintf(message, "Process %d: sum=%d", my_rank,sum);
+		sprintf(message, "Process #%d: sum=%d", my_rank,res);
 		/* use strlen+1 so that '\0' get transmitted */
 		MPI_Send(message, strlen(message)+1, MPI_CHAR, dest, tag, MPI_COMM_WORLD);
 	}
@@ -49,7 +49,7 @@ int main(int argc, char* argv[]){
 		for (source = 1; source < p; source++) {
 			MPI_Recv(message, 100, MPI_CHAR, source, tag,
 			      MPI_COMM_WORLD, &status);
-			printf("received: %s\n",message);
+			printf("get: %s\n",message);
 		}
 	}
 	MPI_Barrier(MPI_COMM_WORLD);
