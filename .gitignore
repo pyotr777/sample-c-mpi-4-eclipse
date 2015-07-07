@@ -1,5 +1,6 @@
 .*
 .ptp-sync/**
+.settings/**
 /._.DS_Store
 /.DS_Store
 /para_logs
@@ -7,7 +8,9 @@
 *.o
 *file_for_script*
 *.ppk
+*.pcf
 /Profiles/
+/traces/
 *.sh.e*
 *.sh.o*
 *.sh.s*
