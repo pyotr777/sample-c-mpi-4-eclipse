@@ -10,7 +10,7 @@
 *.ppk
 *.pcf
 /Profiles/
-/traces/
+/trace*
 *.sh.e*
 *.sh.o*
 *.sh.s*
