@@ -10,8 +10,9 @@ my @words;
 @pids=`ps ax | grep "monitor_para" | awk '{ print \$1 }'`;
 print @pids;
 while (1) {
-	@procs=`ps ax | egrep -i 'paraprof|c_mpi' | grep -v "c_mpi.o" | grep -v "grep"`;
+#	@procs=`ps ax | egrep -i 'paraprof|c_mpi' | grep -v "c_mpi.o" | grep -v "grep"`;
 #	@procs=`ps ax | egrep -i '_para|c_mpi'`;
+	@procs=`ps ax | egrep -iv 'ps ' | grep  -v "grep"`;
 	for my $proc (@procs) {
 		$print=1;
 		chomp($proc);

@@ -10,3 +10,4 @@ pwd
 ls -la
 env | grep -i tau
 mpiexec ./C_MPIt.exe
+ls -la
